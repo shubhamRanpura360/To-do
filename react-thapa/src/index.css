@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "urbanist" , sans-serif;
+}
+
+li{
+  list-style: none; 
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 142rem;
+  margin: 0 auto;
+  padding: 2.6rem 10.4rem;
+
+
+}
+.grid{
+  display: grid;
+  gap: 5.6rem;
+}
+.grid-two-cols{
+  grid-template-columns: repeat(2,1fr);
+
+}
+.grid-three--cols{
+  grid-template-columns: repeat(3,1fr);
+}
+
+h1{
+  font-size: 3.2rem;
+}
+
+p,li,a,label{
+  font-size: 17px;
+  letter-spacing: 0.1rem;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+
+img{
+  width: 100%;
+} 
+

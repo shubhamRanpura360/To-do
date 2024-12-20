@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.g-div{
+    border: 1px;
+    margin: 183px;
+    padding: 121px;
+    background-color: rgb(236, 22, 58);;
+    border: 4px solid black;
+}
+
+
+.p-div {
+    background-color: rgb(96, 135, 225);
+    border: 4px solid black;
+    padding: 27px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+
+.c-div{
+    margin: 40px;
+    padding: 30px;
+    background-color: rgb(255, 234, 0);
+    border: 4px solid black;
+    width: 100%;
+    color: black;
+}
+
+.main-div{
+    /* height: 80vh; */
+    width: 100%;
+    flex-direction: column; 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 100px;
+    width: 25%;
+    background-color: rgba(2, 247, 227, 0.598);
+    font-size: 2rem;
+    border: none;
+
+}

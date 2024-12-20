@@ -1,0 +1,30 @@
+.grid-three-cols{
+    gap: 2rem;
+}
+.containershort-container{
+    height: 100vh;
+    padding: 27px;
+    background-color:rgb(16 24 167 / 24%);
+    
+}
+.containershort-container h1{
+    color: black;
+    font-size: 50px;
+}
+.containershort-container p{
+    padding: 30px;
+    font-size: 1.5rem;
+}
+.grid-three-cols {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+button{
+    width: 28%;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+}

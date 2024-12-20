@@ -1,0 +1,37 @@
+.container-state-container{
+    height: 100vh;
+    background-color: rgb(169, 193, 193);
+    padding: 20px;
+}
+
+
+.container-state-container p{
+    padding: 35px;
+    font-size: 30px;
+}
+.state-btn{
+    width: 130px;
+}
+.grid-three-cols{
+    padding-top: 20px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;   
+}
+.input-value{
+    margin-bottom: 50px;
+    padding-left: 40px;   
+}
+.input-value label {
+    font-size: 25px;
+    width: 100%; 
+}
+
+  input[type="number"] {
+    margin-left: 5px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+  }
