@@ -8,5 +8,6 @@ export const App = () => {
 < Todo/>
     </>
   );
-};
+}; 
+const apple = {banana , apple }
   
