@@ -9,5 +9,5 @@ export const App = () => {
     </>
   );
 }; 
-const apple = {banana , apple }
+
   
